@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Federo&display=swap');
+
+@font-face {
+  font-family: minerva-modern;
+  src: url(https://use.typekit.net/af/2d15e1/00000000000000003b9afd25/27/l?subset_id=2&fvd=n4&v=3);
+}
+
+/* Variables are established for the colors */
+:root{
+    --loblolly: rgba(195, 200, 205);
+    --diesel: rgba(1, 0, 1);
+}
+
+/* Reset default margins/padding and set box-sizing for consistent layout */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;    
+}
+
+body{
+    font-family: Cardo, serif;
+    background-color: var(--loblolly);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 90rem;
+    width: 90%;
+    margin: 0 auto;
+}
+
+nav{
+    display: flex;
+    padding: 2rem 0;
+    align-items: center;
+    gap: 6rem;
+    font-size: 1.2rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.social-network{
+    display: flex;
+    align-content: center;
+    align-items: center;    
+}
+
+.social-network ul{
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+}
+
+.social-network img{
+    width: 100%;
+    max-width: 1.2rem;
+    min-width: 1rem;
+}
+
+.title{
+    font-family: minerva-modern;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+.title a{
+    text-decoration: none;
+    color: var(--diesel);
+}
+
+.nav-center ul{
+    display: flex;
+    list-style: none;
+    margin: 1rem;
+}
+
+.about-border{
+    border-bottom: 1px solid var(--diesel);
+}
+
+.nav-center ul a {
+    text-decoration: none;
+    color: var(--diesel);
+    margin: 1rem;
+}
+
+.nav-right{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.btn {
+    text-decoration: none;
+    color: var(--loblolly);
+    font-size: 1rem;
+    background-color: var(--diesel);
+    padding: 1rem;
+}
+
+
+.about-first{
+    display: flex;
+    padding: 2rem 0;
+    gap: 7rem;
+    margin-bottom: 4rem;
+}
+
+.about-first img{
+    width: 100%;
+    max-width: 35rem;
+    min-width: 25rem;
+    object-fit: cover;
+}
+
+.about-first-presentation{
+    display: flex;
+    font-size: 1.4rem;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.title-presentation{
+
+}
+
+.about-first-presentation-p1{
+    
+}
+
+.about-first-presentation-p2{
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.btn-about{
+    
+}
+
+.btn-about {
+    font-size: 1.1rem;
+    padding: 1rem 3rem;
+}
+
+.about-second{
+    display: flex;
+    border-top: 1px solid var(--diesel);
+    padding: 2rem 0;
+}
+
+.about-second-grid{
+    display: grid;
+    gap: 4rem;
+    grid-template-columns: 2fr,1fr,1fr;
+}
+.my-focus{
+    text-align: start;
+    max-width: 40rem;
+    min-width: 20rem;
+    padding: 0;
+}
+
+.about-second-grid-p1{
+    font-size: 1.2rem;
+    grid-column: 2/4;
+}
+
+.about-second-grid-p2{
+    grid-row: 2/3;
+    grid-column: 2/3;
+}
+.about-second-grid-p3{
+        grid-row: 2/3;
+    grid-column: 3/4;
+}
+.title-h3{
+    padding: 1rem 0;
+}
+
+.subscribe{
+    display: flex;
+    border-top: 1px solid var(--diesel);
+    padding-bottom: 2rem;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    padding-top: 10rem;
+}
+
+.subscribe form{
+    padding: 1rem;
+}
+
+.subscribe form input{
+    padding: 1rem;
+    border: none;
+    font-family: Cardo;
+    font-size: 1rem;
+}
+
+.btn-footer{
+    padding: 1.1rem 2.1rem;
+}
