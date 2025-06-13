@@ -1,0 +1,195 @@
+:root {
+--fuenteparrafos: "cardo";
+}
+
+* {
+    font-family: var(--fuenteparrafos);
+}
+
+@font-face {
+    font-family: minerva-modern;
+    src: url(https://use.typekit.net/af/2d15e1/00000000000000003b9afd25/27/l?subset_id=2&fvd=n4&v=3);
+}
+
+body {
+    background-color: #c2c8cc;
+    height: auto;
+    margin: 0 100px;
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.insta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    font-family: minerva-modern;
+    font-weight: 200;
+    margin-bottom: 0;
+    font-size: 2rem;
+}
+
+main h1 {
+    font-family: minerva-modern;
+    font-weight: 200;
+    font-size: 4rem;
+    margin-top: 0;
+}
+
+header {
+    padding-top: 1.5vw;
+    padding-bottom: 2.5vw;
+    padding-left: 4vw;
+    padding-right: 4vw;
+}
+
+header button {
+    background-color: black;
+    padding: 0.7rem 1.7rem;
+    
+}
+
+.sign {
+    font-size: 1.2rem;
+}
+
+header button a {
+    color: white;
+}
+
+main p {
+    display: flex;
+    padding-right: 19rem;
+    font-size: 1.2rem;
+    font-family: "Cardo", serif;
+}
+
+.contact-p {
+    padding-left: 4vw;
+    align-items: flex-start;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2.4rem;
+    font-size: 1.2rem;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+header span {
+    display: flex;
+    gap: 2.3rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 4rem;
+    height: 35rem;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 4vw;
+}
+
+.form-name-addres {
+    display: flex;
+    gap: 1.4rem;
+}
+
+.name-addres {
+    display: grid;
+}
+
+.name {
+    grid-column: 1/2;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+.address {
+    grid-column: 2/2;
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+.name-contenedor {
+   max-width: 21rem;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 100%;
+    padding: 0.9rem;
+    margin: 0.5rem 0;
+    box-sizing: border-box;
+    margin-bottom: 2rem;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    padding-top: 25rem;
+    padding-bottom: 1.8rem;
+}
+
+.si {
+    display: flex;
+    place-items: center;
+    gap: 1rem;
+}
+
+footer div input {
+    display: flex;
+    height: 4rem;
+}
+
+footer button {
+    background-color: black;
+    color: white;
+    height: 3.5rem;
+    width: 8rem;
+    margin-bottom: 1.4rem;
+}
+
+fieldset {
+    border: none;
+    padding-left: 0;
+    font-size: 1.2rem;
+}
+
+fieldset div label input {
+    margin-top: 1.4rem;
+}
+
+fieldset button {
+    margin-top: 1rem;
+    background-color: black;
+    color: white;
+    height: 4rem;
+    width: 7rem;
+    
+}
+
+footer div ::placeholder {
+    font-size: 1.4rem;
+}
+
+button {
+    border: none;
+}
