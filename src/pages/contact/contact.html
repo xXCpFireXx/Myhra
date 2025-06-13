@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="contact.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h1>WELLNESS BY MYHRA</h1>
+            <div>
+                <div class="insta">
+                    <span>
+                        <i class="bi bi-instagram"></i>
+                        <i class="bi bi-facebook"></i>
+                        <i class="bi bi-youtube"></i>
+                    </span>
+                    <div class="sign">
+                        <a href="#">sign in</a>
+                        <button><a href="#">work with me</a></button>
+                    </div>
+                </div>
+            </div>
+            <div class="navigation">
+                <a href="#">About us</a>
+                <a href="#">Services</a>
+                <a href="#">Advice</a>
+                <a href="#">Recipes</a>
+                <a href="#">Contact</a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="contact-p">
+            <h1>Contact</h1>
+            <p>If you have any questions about events or press opportunities, please don't hesitate to contact us here.
+                If you'd like individual advice, you can schedule a free consultation now.</p>
+        </div>
+        <div>
+            <form>
+                <legend>Name (mandatory)</legend>
+                <div class="name-addres">
+                    <p class="name">Name:</p>
+                    <p class="address">Address:</p>
+                </div>
+                <div class="form-name-addres">
+                    <input class="name-contenedor" type="text" id="name" name="name" required>
+                    <input type="text" id="name" name="name" required>
+                </div><br>
+                <div>
+                    <label class="move-email" for="email">Email: <span>(mandatory)</span></label><br>
+                    <input type="email" id="email" name="email" required>
+                    <label for="name">Asunto: <span>(mandatory)</span></label><br>
+                    <input type="text" id="name" name="name" required>
+                    <label for="message">Message: <span>(mandatory) </span></label><br>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <fieldset>
+                    <legend>
+                        <span>inquiry about</span>
+                    </legend>
+                    <div>
+                        <label>
+                            <input name="checkbox" type="checkbox" value="Services">
+                            </input>
+                            <span data-dimamic-strings="true">Services</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input name="checkbox" type="checkbox" value="Corporate events">
+                            </input>
+                            <span data-dimamic-strings="true">Corporate events</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input name="checkbox" type="checkbox" value="Group events">
+                            </input>
+                            <span data-dimamic-strings="true">Group events</span>
+                        </label>
+                    </div>
+                    <div>
+                        <label>
+                            <input name="checkbox" type="checkbox" value="press opportunities">
+                            </input>
+                            <span data-dimamic-strings="true">Press opportunities</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="button">Send</button>
+                </fieldset>
+            </form>
+        </div>
+    </main>
+    <footer>
+        <h1>Don't miss any recipe</h1>
+        <div class="si">
+            <input name="email" type="text" spellcheck="false" placeholder="Email">
+            <button>
+                <span>Subscribe</span>
+            </button>
+        </div>
+    </footer>
+
+</body>
+
+</html>
